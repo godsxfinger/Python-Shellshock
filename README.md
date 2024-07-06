@@ -2,6 +2,10 @@
 
 This repository contains a Python script that demonstrates shellcode injection into a running process using the Windows API. This technique is often used in ethical hacking and penetration testing to understand vulnerabilities and develop stronger defenses.
 
+# Disclaimer
+
+This code is intended for educational purposes only. The author is not responsible for any misuse of this code. Use responsibly and ethically.
+
 ## Features
 
 - Opens a target process with specified permissions
@@ -10,6 +14,11 @@ This repository contains a Python script that demonstrates shellcode injection i
 - Changes memory protection to allow execution of the shellcode
 - Creates a remote thread in the target process to execute the shellcode
 - Includes basic error handling
+
+## Important Considerations
+
+- Permissions: Running this script requires administrative privileges on the system.
+- Ethical Use: Ensure that any use of this code complies with legal and ethical guidelines. Unauthorized access to computer systems is illegal.
 
 ## Usage
 
@@ -38,11 +47,3 @@ Replace the placeholder process ID with the actual target process ID.
 process_id = 1234  # Replace with the target process ID
 ```
 
-## Important Considerations
-
-- Permissions: Running this script requires administrative privileges on the system.
-- Ethical Use: Ensure that any use of this code complies with legal and ethical guidelines. Unauthorized access to computer systems is illegal.
-
-# Disclaimer
-
-This code is intended for educational purposes only. The author is not responsible for any misuse of this code. Use responsibly and ethically.
