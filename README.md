@@ -48,3 +48,8 @@ Replace the placeholder process ID with the actual target process ID.
 process_id = 1234  # Replace with the target process ID
 ```
 
+You can also use `pid.py` to find the pid for any process.
+```python
+python pid.py
+```
+
